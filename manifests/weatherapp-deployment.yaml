@@ -18,7 +18,8 @@ spec:
         app: wapp-dep
     spec:
       containers:
-      - image: mohcontreg.azurecr.io/mohzeelaweatherapp
+      - image: nginx:alpine
+#      - image: mohcontreg.azurecr.io/mohzeelaweatherapp
         name: mohzeelaweatherapp
         resources: {}
 status: {}
