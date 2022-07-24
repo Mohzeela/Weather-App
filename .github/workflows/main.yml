@@ -32,4 +32,4 @@ jobs:
             # mandatory
             -Dsonar.projectKey=Mohzeela_Weather-App
             -Dsonar.organization=mohzeela
-            -Dsonar.sources=.
+            -Dsonar.host.url=https://github.com/Mohzeela/Weather-App
