@@ -32,3 +32,4 @@ jobs:
             # mandatory
             -Dsonar.projectKey=Mohzeela_Weather-App
             -Dsonar.organization=mohzeela
+            -Dsonar.sources=.
