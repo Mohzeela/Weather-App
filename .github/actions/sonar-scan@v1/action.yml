@@ -7,7 +7,7 @@ branding:
   color: green
 runs:
   using: docker
-  image: sonarsource/sonarcloud-scan
+  image: Dockerfile #sonarsource/sonarcloud-scan
 inputs:
   args:
     description: Additional arguments to the sonarcloud scanner
